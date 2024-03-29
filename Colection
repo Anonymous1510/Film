@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- (Optional) Untuk gaya tambahan -->
+</head>
+<body>
+    <header>
+        <h1>WEBSITE PRIBADI ANONYMOUS</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">KOLEKSI FILM</a></li>
+            <!-- Tambahkan tautan ke halaman lain jika diperlukan -->
+        </ul>
+    </nav>
+    <main>
+        <!-- Konten utama akan ditambahkan di sini -->
+    </main>
+    <footer>
+        <p>&copy; TIDAK UNTUK DI SHARE HANYA UNTUK PRIBADI.</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website - Home</title>
+    <link rel="stylesheet" href="styles.css"> <!-- (Optional) Untuk gaya tambahan -->
+</head>
+<body>
+    <h2>Featured Movies</h2>
+    <ul>
+        <li><a href="movie1.html">Panther Swat (2023)</a></li>
+        <li><a href="movie2.html">Plane (2023)</a></li>
+        <!-- Tambahkan film lainnya jika diperlukan -->
+    </ul>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website - Movie 1</title>
+    <link rel="stylesheet" href="styles.css"> <!-- (Optional) Untuk gaya tambahan -->
+</head>
+<body>
+    <h2>My Video</h2>
+    <video width="640" height="360" controls>
+        <source src="https://www.nonton168.com/movies/desember2022/DSI.Badland.Hunters.2024.WEBDL.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website - Movie 1</title>
+    <link rel="stylesheet" href="styles.css"> <!-- (Optional) Untuk gaya tambahan -->
+</head>
+<body>
+    <h2>My Video</h2>
+    <video width="640" height="360" controls>
+        <source src="https://osqqqa.bn.files.1drv.com/y4mY-uslm7LZjbUzNqDXfKhvlMh35DY_RZlX2UNmil6xc8bSY4A73ayRknCknz0TPw92Tl5XK90enhqpIrQOjk-btqK0HXZO84jQ9P_dvNK1hMTCYYH26yyDHOtnpThvObAX-gzCJu091GsuZSzidURzn_A3KLy-W0wUWf_w-ilJnaqN3X7B2_hMvqB5lNgk633EksXk5SfwVrwqQs0JVLVrg" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
